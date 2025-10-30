@@ -2,7 +2,7 @@ import {navConfig} from "./nav"
 import {generatorSides, flatNav} from "./scripts/utils";
 
 export default {
-  base: '/blog-vitepress/',
+  base: '/template-vitepress/',
   outDir: '../public',
   title: 'Luffy-blog',
   description: 'Looking in my eyes, Coding by yourself.',
