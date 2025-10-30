@@ -5,10 +5,10 @@ node_modules/
 # Build output
 /dist/
 /build/
-public/
+/public/
 
 # Cache
-docs/.vitepress/cache
+/docs/.vitepress/cache
 
 # IDE and editor files
 .idea/
