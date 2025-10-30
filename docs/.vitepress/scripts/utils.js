@@ -29,6 +29,7 @@ export const autoGenerateSidebarAdvanced = function (baseDir, options = {}) {
   const {
     ignoreDirs = [], // 要忽略的文件夹
     sort = true,     // 是否排序
+		hidden = false
   } = options;
 
   const sidebar = [];
@@ -68,7 +69,7 @@ export const generatorSides = (sides) => {
 export const flatNav = (a) => {
 	return a.reduce((flattened, {link, items, config = {}}) => {
 		return flattened
-			.concat(link ? [{path: link, config}] : [])
+			.concat((link && link.startsWith('/')) ? [{path: link, config}] : [])
 			.concat(items ? flatNav(items) : []);
 	}, []);
 }

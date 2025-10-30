@@ -1,15 +1,10 @@
 export const navConfig = [
     {
-        text: 'VitePress模板配置',
+        text: '模板配置',
         items: [
             {
-                text: '基础配置',
-                items: [
-                    {text: 'VitePress配置', link: '/vitePressConfig/configVitePress/'},
-                    {text: '首页配置', link: '/vitePressConfig/configHome/'},
-                    {text: '导航栏配置', link: '/vitePressConfig/configNav/'},
-                    {text: '侧边栏配置', link: '/vitePressConfig/configSide/'},
-                ]
+                text: 'VitePress配置',
+                link: '/vitePressConfig/',
             },
             {
                 text: 'markdown语法',

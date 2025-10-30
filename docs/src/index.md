@@ -10,8 +10,8 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text:  快速开始 !
-      link: /forkAndDeploy/
+      text:  快速部署 !
+      link: /forkAndDeploy/部署博客/1.github page.html
     - theme: alt
       text: GitHub
       link: https://github.com/menghu1994/template-vitepress
