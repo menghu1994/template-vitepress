@@ -4,13 +4,16 @@ import {generatorSides, flatNav} from "./scripts/utils";
 export default {
   base: '/template-vitepress/',
   outDir: '../public',
-  title: 'VitePress | blog',
-  description: 'Looking in my eyes, Coding by yourself.',
+  title: 'VitePress',
+  titleTemplate: ':title - blog',
+  description: 'VitePress Blog Template',
   deadLinks: true,
   lastUpdated: true,
   // srcDir变动需要同时更改utils中link slice位置
   srcDir: 'src',
-  head: [['link', {rel: 'icon', href: '/img/favicon.ico'}]],
+  head: [
+    ['link', {rel: 'icon', href: '/img/favicon.ico'}],
+  ],
   themeConfig: {
     // 不需要标题 则配置为false
     siteTitle: 'Luffy',
@@ -44,7 +47,10 @@ export default {
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2025 Luffy'
-    }
+    },
+    markdown: {},
+    vite: {},
+    vue: {}
   }
 
 }
