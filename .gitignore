@@ -1,0 +1,34 @@
+
+# Node modules
+node_modules/
+
+# Build output
+/dist/
+/build/
+public/
+
+# Cache
+docs/.vitepress/cache
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac specific files
+.DS_Store
+
+# Vue specific generated files
+components.d.ts # If using unplugin-vue-components and choosing not to commit types
